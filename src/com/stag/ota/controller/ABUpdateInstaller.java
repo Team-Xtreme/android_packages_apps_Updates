@@ -21,7 +21,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.UpdateEngine;
 import android.os.UpdateEngineCallback;
-import android.support.v7.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -29,6 +28,8 @@ import com.stag.ota.misc.Constants;
 import com.stag.ota.misc.Utils;
 import com.stag.ota.model.Update;
 import com.stag.ota.model.UpdateStatus;
+
+import androidx.preference.PreferenceManager;
 
 import java.io.BufferedReader;
 import java.io.File;

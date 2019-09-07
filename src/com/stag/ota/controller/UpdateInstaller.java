@@ -21,7 +21,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 import android.os.SystemProperties;
-import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
 import com.stag.ota.misc.Constants;
@@ -29,6 +28,8 @@ import com.stag.ota.misc.FileUtils;
 import com.stag.ota.misc.Utils;
 import com.stag.ota.model.UpdateInfo;
 import com.stag.ota.model.UpdateStatus;
+
+import androidx.preference.PreferenceManager;
 
 import java.io.File;
 import java.io.IOException;

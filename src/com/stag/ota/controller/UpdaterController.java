@@ -22,7 +22,6 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.PowerManager;
 import android.os.SystemClock;
-import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.stag.ota.UpdatesDbHelper;
@@ -31,6 +30,8 @@ import com.stag.ota.misc.Utils;
 import com.stag.ota.model.Update;
 import com.stag.ota.model.UpdateInfo;
 import com.stag.ota.model.UpdateStatus;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import java.io.File;
 import java.io.IOException;

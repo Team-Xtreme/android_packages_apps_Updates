@@ -30,7 +30,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.FrameLayout;
-import android.support.v4.widget.NestedScrollView;
+import androidx.core.widget.NestedScrollView;
 
 import net.cachapa.expandablelayout.ExpandableLayout;
 

@@ -11,22 +11,20 @@ LOCAL_MANIFEST_FILE := app/src/main/AndroidManifest.xml
 LOCAL_SRC_FILES := $(call all-java-files-under, app/src/main/java)
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    android-support-v7-appcompat \
-    android-support-v7-cardview \
-    android-support-design \
-    android-support-annotations \
-    android-support-v4 \
+    com.google.android.material_material \
+    androidx.core_core \
+    androidx.appcompat_appcompat \
+    androidx.cardview_cardview \
+    androidx.preference_preference \
+    androidx.recyclerview_recyclerview \
     volley \
     commons-io-2.6
 
 LOCAL_RESOURCE_DIR := \
-    $(TOP)/frameworks/support/v7/appcompat/res \
-    $(TOP)/frameworks/support/cardview/res \
-    $(TOP)/frameworks/support/design/res \
     $(LOCAL_PATH)/app/src/main/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay
-LOCAL_AAPT_FLAGS += --extra-packages android.support.v7.appcompat:android.support.v7.cardview:android.support.design
+LOCAL_AAPT_FLAGS += --extra-packages androidx.appcompat:androidx.cardview
 
 include frameworks/opt/setupwizard/library/common-gingerbread.mk
 

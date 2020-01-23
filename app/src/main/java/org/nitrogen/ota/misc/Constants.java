@@ -33,7 +33,7 @@ public class Constants {
     // Build vars
     public static final String CURRENT_DEVICE_NAME = "ro.nitrogen.device";
     public static final String CURRENT_VERSION = "org.nitrogen.version";
-    public static final String OTA_URL = "https://raw.githubusercontent.com/nitrogen-project/OTA/p/%s.json";
+    public static final String OTA_URL = "https://raw.githubusercontent.com/nitrogen-project/OTA/10/%s.json";
     public static final String OTA_VERSION_CODE = "pie";
     // Expressions
     public static final String FILENAME_DATE_FORMAT = "yyyyMMdd";

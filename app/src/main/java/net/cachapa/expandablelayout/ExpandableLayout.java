@@ -20,7 +20,7 @@ import static net.cachapa.expandablelayout.ExpandableLayout.State.COLLAPSING;
 import static net.cachapa.expandablelayout.ExpandableLayout.State.EXPANDED;
 import static net.cachapa.expandablelayout.ExpandableLayout.State.EXPANDING;
 
-import org.nitrogen.ota.R;
+import org.stag.ota.R;
 
 public class ExpandableLayout extends FrameLayout {
     public interface State {

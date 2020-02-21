@@ -23,7 +23,7 @@ public final class Constants {
     public static final String PREF_MOBILE_DATA_WARNING = "pref_mobile_data_warning";
     public static final String PREF_NEEDS_REBOOT_ID = "needs_reboot_id";
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
-    public static final String PROP_BUILD_DATE = "ro.stag.build_date_utc";
+    public static final String PROP_BUILD_DATE = "ro.build.date.utc";
     public static final String PROP_DISABLE_UNCRYPT = "sys.ota.disable_uncrypt";
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
@@ -38,8 +38,8 @@ public final class Constants {
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
     static final String PROP_DEVICE = "ro.stag.device";
     static final String PROP_BUILD_VERSION = "ro.stag.version";
-    static final String PROP_VERSION_CODE = "q";
-    static final String OTA_URL = "https://https://raw.githubusercontent.com/StagOS-Devices/OTA/s%.json";
+    static final String PROP_VERSION_CODE = "ten";
+    static final String OTA_URL = "https://https://raw.githubusercontent.com/StagOS-Devices/OTA/sx/s%.json";
     static final String DOWNLOAD_WEBPAGE_URL = "http://download.stag-os.me/%s/%s/%s";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String EXPORT_PATH = "StagOS-Updates/";
